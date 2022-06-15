@@ -1,0 +1,15 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 9%);
+
+  &__currencyList {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__currencyListItem {
+    padding: 12px 20px;
+    font-weight: bold;
+    color: #404040;
+  }
+}

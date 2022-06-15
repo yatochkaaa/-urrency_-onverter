@@ -1,0 +1,23 @@
+.converter {
+  display: flex;
+
+  &__item {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  &__itemValue {
+    display: flex;
+  }
+
+  &__arrowsImage {
+    background-image: url(https://finance.liga.net/design/images/icons/converter-min-arr.png);
+    justify-content: center;
+    align-self:flex-end;
+    background-repeat: no-repeat;
+    margin: 0 8px;
+    height: 20px;
+    width: 31px;
+    display: flex;
+  }
+}
